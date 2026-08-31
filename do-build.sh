@@ -1522,6 +1522,7 @@ function base_dconf_package_install () {
 
 	local run_cmd="apt-get install -y --install-recommends
 		dconf-cli
+		libglib2.0-bin
 	"
 
 	echo \${run_cmd}
