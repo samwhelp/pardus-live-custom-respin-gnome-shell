@@ -1518,10 +1518,26 @@ function base_dconf_package_install () {
 	echo "## [Worker] base_dconf_package_install"
 	echo "################################################################################"
 
-	echo "==== install dconf-cli package ===="
+	echo "==== install dconf package ===="
 
 	local run_cmd="apt-get install -y --install-recommends
 		dconf-cli
+	"
+
+	echo \${run_cmd}
+	\${run_cmd}
+
+}
+
+function base_gsettings_package_install () {
+
+	echo "################################################################################"
+	echo "## [Worker] base_gsettings_package_install"
+	echo "################################################################################"
+
+	echo "==== install gsettings package ===="
+
+	local run_cmd="apt-get install -y --install-recommends
 		libglib2.0-bin
 	"
 
@@ -1864,6 +1880,7 @@ function model_do_fulfill_scripts () {
 
 
 	base_dconf_package_install
+	base_gsettings_package_install
 	base_dconf_db_update
 	base_gsettings_schema_compile
 
@@ -1878,7 +1895,6 @@ function model_do_fulfill_scripts () {
 	extend_hook_main_script_run
 
 
-	base_dconf_package_install
 	base_dconf_db_update
 	base_gsettings_schema_compile
 
