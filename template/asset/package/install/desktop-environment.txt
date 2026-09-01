@@ -8,5 +8,7 @@
 
 
 ##
-## ## Package / Desktop Environment / Xfce
+## ## Package / Desktop Environment / Gnome Shell
 ##
+
+gnome-tweaks
