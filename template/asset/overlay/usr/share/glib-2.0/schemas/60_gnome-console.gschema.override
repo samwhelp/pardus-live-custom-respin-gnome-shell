@@ -5,5 +5,5 @@ theme='night'
 transparency=true
 font-scale=1.0
 use-system-font=false
-custom-font='Monospace 12'
+custom-font='Monospace 14'
 
