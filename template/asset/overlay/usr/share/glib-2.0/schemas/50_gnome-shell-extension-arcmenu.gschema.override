@@ -9,6 +9,7 @@ force-menu-location='Off'
 hide-overview-on-startup=false
 hotkey-open-primary-monitor=false
 #menu-button-icon='start-here'
+menu-button-icon='/usr/share/pardus/gnome-settings/start-pardus-gnome-25.svg'
 #menu-button-icon-size=32
 #menu-button-padding=6
 menu-item-grid-icon-size='Default'
