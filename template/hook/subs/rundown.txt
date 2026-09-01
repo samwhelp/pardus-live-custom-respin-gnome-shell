@@ -1,0 +1,23 @@
+
+
+##
+## # Subs / Rundown
+##
+
+
+
+
+##
+## ## Demo
+##
+
+#demo-sub-exec
+
+
+
+
+##
+## ## Pardus
+##
+
+pardus-desktop-package-install
