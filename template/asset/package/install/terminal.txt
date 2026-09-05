@@ -63,7 +63,7 @@ lxterminal
 ## ## Package / Terminal / gnome-terminal
 ##
 
-#gnome-terminal
+gnome-terminal
 
 
 
